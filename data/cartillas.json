@@ -1,0 +1,1448 @@
+[
+  {
+    "cartilla_id": "CART_REP_001",
+    "nombre_partida": "Replanteo, trazado",
+    "nombre_normalizado": "replanteo_trazado",
+    "partida_id_match_sugerido": "PART_2.1",
+    "foto": true,
+    "documentos_solicitados": false,
+    "items": [
+      {
+        "item_id": "REP_01",
+        "descripcion": "Verificación de monolitos PR",
+        "evidencia_documental": false,
+        "quien_verifica": "ambos"
+      },
+      {
+        "item_id": "REP_02",
+        "descripcion": "Verificación trazado de sitios (tolerancia +/- 1% )",
+        "evidencia_documental": false,
+        "quien_verifica": "ambos"
+      },
+      {
+        "item_id": "REP_03",
+        "descripcion": "Verificación de línea de Edificación ( tolerancia +/- 1%)",
+        "evidencia_documental": false,
+        "quien_verifica": "ambos"
+      },
+      {
+        "item_id": "REP_04",
+        "descripcion": "Replanteo de Viviendas , según planos",
+        "evidencia_documental": false,
+        "quien_verifica": "ambos"
+      },
+      {
+        "item_id": "REP_05",
+        "descripcion": "Confeccion de tablaestacado, Verificar estanquedad",
+        "evidencia_documental": false,
+        "quien_verifica": "ambos"
+      },
+      {
+        "item_id": "REP_06",
+        "descripcion": "Nivelación de Viviendas ( tolerancia +/- 5%)",
+        "evidencia_documental": false,
+        "quien_verifica": "ambos"
+      },
+      {
+        "item_id": "REP_07",
+        "descripcion": "Verificación de ejes, indicar longitudes según planos",
+        "evidencia_documental": false,
+        "quien_verifica": "ambos"
+      },
+      {
+        "item_id": "REP_08",
+        "descripcion": "Retiro de excedentes",
+        "evidencia_documental": false,
+        "quien_verifica": "ambos"
+      }
+    ]
+  },
+  {
+    "cartilla_id": "CART_EXC_001",
+    "nombre_partida": "Excavación cimiento",
+    "nombre_normalizado": "excavacion_cimiento",
+    "partida_id_match_sugerido": "PART_2.2",
+    "foto": true,
+    "documentos_solicitados": true,
+    "items": [
+      {
+        "item_id": "EXC_01",
+        "descripcion": "Verificación de Mecánica de suelos, aprobado por Mecánico de Suelos o Ing. Estructural",
+        "evidencia_documental": true,
+        "quien_verifica": "ambos"
+      },
+      {
+        "item_id": "EXC_02",
+        "descripcion": "Verificación de ancho según EETT",
+        "evidencia_documental": false,
+        "quien_verifica": "ambos"
+      },
+      {
+        "item_id": "EXC_03",
+        "descripcion": "Verificación de altura según EETT",
+        "evidencia_documental": false,
+        "quien_verifica": "ambos"
+      },
+      {
+        "item_id": "EXC_04",
+        "descripcion": "Verificación de alineamiento y ejes",
+        "evidencia_documental": false,
+        "quien_verifica": "ambos"
+      },
+      {
+        "item_id": "EXC_05",
+        "descripcion": "Verificación de paredes verticales",
+        "evidencia_documental": false,
+        "quien_verifica": "ambos"
+      },
+      {
+        "item_id": "EXC_06",
+        "descripcion": "Verificación de fondo horizontal, (incl. Escalonamiento)",
+        "evidencia_documental": false,
+        "quien_verifica": "ambos"
+      },
+      {
+        "item_id": "EXC_07",
+        "descripcion": "Recepción de sellos de Fundación por Mecánico de Suelos o Ing. Estructural",
+        "evidencia_documental": true,
+        "quien_verifica": "ambos"
+      },
+      {
+        "item_id": "EXC_08",
+        "descripcion": "Limpieza de sellos de fundación",
+        "evidencia_documental": false,
+        "quien_verifica": "ambos"
+      },
+      {
+        "item_id": "EXC_09",
+        "descripcion": "Colocación de Emplantillado, espesor 5cms.",
+        "evidencia_documental": false,
+        "quien_verifica": "ambos"
+      }
+    ]
+  },
+  {
+    "cartilla_id": "CART_CIM_001",
+    "nombre_partida": "Cimiento",
+    "nombre_normalizado": "cimiento",
+    "partida_id_match_sugerido": "PART_2.4",
+    "foto": true,
+    "documentos_solicitados": true,
+    "items": [
+      {
+        "item_id": "CIM_01",
+        "descripcion": "Verificación de ubicación de Pilares y Tensores (según plano de estructura)",
+        "evidencia_documental": false,
+        "quien_verifica": "ambos"
+      },
+      {
+        "item_id": "CIM_02",
+        "descripcion": "Verificación de diámetro de Tensores (fe min 10 mm)",
+        "evidencia_documental": false,
+        "quien_verifica": "ambos"
+      },
+      {
+        "item_id": "CIM_03",
+        "descripcion": "Verificación de altura de enfierradura sobre cadena (min 25 cm)",
+        "evidencia_documental": false,
+        "quien_verifica": "ambos"
+      },
+      {
+        "item_id": "CIM_04",
+        "descripcion": "Verificación de limpieza de la excavación",
+        "evidencia_documental": false,
+        "quien_verifica": "ambos"
+      },
+      {
+        "item_id": "CIM_05",
+        "descripcion": "Certificado de dosificación",
+        "evidencia_documental": true,
+        "quien_verifica": "ambos"
+      },
+      {
+        "item_id": "CIM_06",
+        "descripcion": "Certificado de hormigón de ruptura según EETT",
+        "evidencia_documental": true,
+        "quien_verifica": "ambos"
+      },
+      {
+        "item_id": "CIM_07",
+        "descripcion": "Verificación de distribución de bolones según EETT",
+        "evidencia_documental": false,
+        "quien_verifica": "ambos"
+      },
+      {
+        "item_id": "CIM_08",
+        "descripcion": "Dejar pasadas de alcantarillado",
+        "evidencia_documental": false,
+        "quien_verifica": "ambos"
+      },
+      {
+        "item_id": "CIM_09",
+        "descripcion": "Toma de muestras (pedir certificados si aplica)",
+        "evidencia_documental": true,
+        "quien_verifica": "ambos"
+      },
+      {
+        "item_id": "CIM_10",
+        "descripcion": "Verificación de trazado de ejes, (según planos)",
+        "evidencia_documental": false,
+        "quien_verifica": "ambos"
+      },
+      {
+        "item_id": "CIM_11",
+        "descripcion": "Colocación y vibrado del hormigón",
+        "evidencia_documental": false,
+        "quien_verifica": "ambos"
+      }
+    ]
+  },
+  {
+    "cartilla_id": "CART_SOB_001",
+    "nombre_partida": "Sobrecimiento",
+    "nombre_normalizado": "sobrecimiento",
+    "partida_id_match_sugerido": "PART_2.5",
+    "foto": true,
+    "documentos_solicitados": true,
+    "items": [
+      {
+        "item_id": "SOB_ENF_01",
+        "descripcion": "Verificar dimensión de enfierradura horizontal según planos",
+        "evidencia_documental": false,
+        "quien_verifica": "ambos"
+      },
+      {
+        "item_id": "SOB_ENF_02",
+        "descripcion": "Verificar dimensión de estribos según planos",
+        "evidencia_documental": false,
+        "quien_verifica": "ambos"
+      },
+      {
+        "item_id": "SOB_ENF_03",
+        "descripcion": "Verificar Doblez 135° y largo de desarrollo del gancho de 10 veces el diámetro (Estribos y trabas)",
+        "evidencia_documental": false,
+        "quien_verifica": "ambos"
+      },
+      {
+        "item_id": "SOB_ENF_04",
+        "descripcion": "Verificar refuerzos de esquinas según planos",
+        "evidencia_documental": false,
+        "quien_verifica": "ambos"
+      },
+      {
+        "item_id": "SOB_ENF_05",
+        "descripcion": "Verificar Diseño de armaduras amarras",
+        "evidencia_documental": false,
+        "quien_verifica": "ambos"
+      },
+      {
+        "item_id": "SOB_ENF_06",
+        "descripcion": "Verificar traslapos, 50 veces el diámetro",
+        "evidencia_documental": false,
+        "quien_verifica": "ambos"
+      },
+      {
+        "item_id": "SOB_ENF_07",
+        "descripcion": "Verificación de recubrimiento (Separadores)",
+        "evidencia_documental": false,
+        "quien_verifica": "ambos"
+      },
+      {
+        "item_id": "SOB_MOL_01",
+        "descripcion": "Verificar alineamiento y nivel de terminación",
+        "evidencia_documental": false,
+        "quien_verifica": "ambos"
+      },
+      {
+        "item_id": "SOB_MOL_02",
+        "descripcion": "Verificar pasadas de agua potable domiciliaria",
+        "evidencia_documental": false,
+        "quien_verifica": "ambos"
+      },
+      {
+        "item_id": "SOB_MOL_03",
+        "descripcion": "Verificar ancho y altura según eett",
+        "evidencia_documental": false,
+        "quien_verifica": "ambos"
+      },
+      {
+        "item_id": "SOB_MOL_04",
+        "descripcion": "Verificar estanquedad del moldaje",
+        "evidencia_documental": false,
+        "quien_verifica": "ambos"
+      },
+      {
+        "item_id": "SOB_MOL_05",
+        "descripcion": "Verificar Limpieza de la superficie y colocación de desmoldante",
+        "evidencia_documental": false,
+        "quien_verifica": "ambos"
+      },
+      {
+        "item_id": "SOB_MOL_06",
+        "descripcion": "Pasadas de agua potable domiciliaria",
+        "evidencia_documental": false,
+        "quien_verifica": "ambos"
+      },
+      {
+        "item_id": "SOB_HOR_01",
+        "descripcion": "Certificado de Hormigón de ruptura",
+        "evidencia_documental": true,
+        "quien_verifica": "ambos"
+      },
+      {
+        "item_id": "SOB_HOR_02",
+        "descripcion": "Verificar rebaje de puertas",
+        "evidencia_documental": false,
+        "quien_verifica": "ambos"
+      },
+      {
+        "item_id": "SOB_HOR_03",
+        "descripcion": "Verificar incorporación de hidrofugo, colocación y vibrado de hormigón",
+        "evidencia_documental": false,
+        "quien_verifica": "ambos"
+      },
+      {
+        "item_id": "SOB_HOR_04",
+        "descripcion": "Extracción de muestra",
+        "evidencia_documental": true,
+        "quien_verifica": "ambos"
+      },
+      {
+        "item_id": "SOB_HOR_05",
+        "descripcion": "Verificar grado de terminación",
+        "evidencia_documental": false,
+        "quien_verifica": "ambos"
+      }
+    ]
+  },
+  {
+    "cartilla_id": "CART_PIL_001",
+    "nombre_partida": "Pilares",
+    "nombre_normalizado": "pilares",
+    "partida_id_match_sugerido": "PART_2.8.1",
+    "foto": true,
+    "documentos_solicitados": true,
+    "items": [
+      {
+        "item_id": "PIL_ENF_01",
+        "descripcion": "Verificar dimensión de enfierradura vertical",
+        "evidencia_documental": false,
+        "quien_verifica": "ambos"
+      },
+      {
+        "item_id": "PIL_ENF_02",
+        "descripcion": "Verificar dimensión de estribos",
+        "evidencia_documental": false,
+        "quien_verifica": "ambos"
+      },
+      {
+        "item_id": "PIL_ENF_03",
+        "descripcion": "Verificar Doblez 135° y largo de desarrollo del gancho de 10 veces el diámetro (Estribos y trabas)",
+        "evidencia_documental": false,
+        "quien_verifica": "ambos"
+      },
+      {
+        "item_id": "PIL_ENF_04",
+        "descripcion": "Verificar dimensión de estribos",
+        "evidencia_documental": false,
+        "quien_verifica": "ambos"
+      },
+      {
+        "item_id": "PIL_ENF_05",
+        "descripcion": "Verificar diseño de armaduras, amarras.",
+        "evidencia_documental": false,
+        "quien_verifica": "ambos"
+      },
+      {
+        "item_id": "PIL_ENF_06",
+        "descripcion": "Verificar traslapos, 50 veces el diámetro",
+        "evidencia_documental": false,
+        "quien_verifica": "ambos"
+      },
+      {
+        "item_id": "PIL_ENF_07",
+        "descripcion": "Verificación de recubrimiento (Separadores)",
+        "evidencia_documental": false,
+        "quien_verifica": "ambos"
+      },
+      {
+        "item_id": "PIL_MOL_01",
+        "descripcion": "Verificar alineamiento y Altura de llenado",
+        "evidencia_documental": false,
+        "quien_verifica": "ambos"
+      },
+      {
+        "item_id": "PIL_MOL_02",
+        "descripcion": "Verificar ancho minimo y altura",
+        "evidencia_documental": false,
+        "quien_verifica": "ambos"
+      },
+      {
+        "item_id": "PIL_MOL_03",
+        "descripcion": "Verificar estanquedad del moldaje",
+        "evidencia_documental": false,
+        "quien_verifica": "ambos"
+      },
+      {
+        "item_id": "PIL_MOL_04",
+        "descripcion": "Limpieza de la superficie, colocacion de desmoldante",
+        "evidencia_documental": false,
+        "quien_verifica": "ambos"
+      },
+      {
+        "item_id": "PIL_HOR_01",
+        "descripcion": "Certificado de hormigón",
+        "evidencia_documental": true,
+        "quien_verifica": "ambos"
+      },
+      {
+        "item_id": "PIL_HOR_02",
+        "descripcion": "Verificación de altura de llenado",
+        "evidencia_documental": false,
+        "quien_verifica": "ambos"
+      },
+      {
+        "item_id": "PIL_HOR_03",
+        "descripcion": "Extracción de Muestra",
+        "evidencia_documental": true,
+        "quien_verifica": "ambos"
+      },
+      {
+        "item_id": "PIL_HOR_04",
+        "descripcion": "Colocacion y vibrado de hormigón",
+        "evidencia_documental": false,
+        "quien_verifica": "ambos"
+      },
+      {
+        "item_id": "PIL_HOR_05",
+        "descripcion": "Verificar grado de terminación (sin nidos de Piedra)",
+        "evidencia_documental": false,
+        "quien_verifica": "ambos"
+      }
+    ]
+  },
+  {
+    "cartilla_id": "CART_ALB_001",
+    "nombre_partida": "Albañilería",
+    "nombre_normalizado": "albanileria",
+    "partida_id_match_sugerido": "PART_2.7",
+    "foto": true,
+    "documentos_solicitados": true,
+    "items": [
+      {
+        "item_id": "ALB_01",
+        "descripcion": "Certificación de ladrillo o Bloque (calidad en terreno)",
+        "evidencia_documental": true,
+        "quien_verifica": "ambos"
+      },
+      {
+        "item_id": "ALB_02",
+        "descripcion": "Certificado de dosificación de mortero",
+        "evidencia_documental": true,
+        "quien_verifica": "ambos"
+      },
+      {
+        "item_id": "ALB_03",
+        "descripcion": "Trazado de puertas y ventanas (en sobrecimiento)",
+        "evidencia_documental": false,
+        "quien_verifica": "ambos"
+      },
+      {
+        "item_id": "ALB_04",
+        "descripcion": "Certificado de dosificación de relleno de tensores",
+        "evidencia_documental": true,
+        "quien_verifica": "ambos"
+      },
+      {
+        "item_id": "ALB_05",
+        "descripcion": "Revisión de escantillón, (plomo, niveles)",
+        "evidencia_documental": false,
+        "quien_verifica": "ambos"
+      },
+      {
+        "item_id": "ALB_06",
+        "descripcion": "Modulación de ladrillos o bloques (verificación de llegadas a pilares en forma entera)",
+        "evidencia_documental": false,
+        "quien_verifica": "ambos"
+      },
+      {
+        "item_id": "ALB_07",
+        "descripcion": "Verificación de colocación de escalerillas",
+        "evidencia_documental": false,
+        "quien_verifica": "ambos"
+      },
+      {
+        "item_id": "ALB_08",
+        "descripcion": "Verificación cantería primera hilada",
+        "evidencia_documental": false,
+        "quien_verifica": "ambos"
+      },
+      {
+        "item_id": "ALB_09",
+        "descripcion": "Verificación de plomo y altura puertas y ventanas",
+        "evidencia_documental": false,
+        "quien_verifica": "ambos"
+      },
+      {
+        "item_id": "ALB_10",
+        "descripcion": "Verificación de altura máxima diaria ( medio muro)",
+        "evidencia_documental": false,
+        "quien_verifica": "ambos"
+      },
+      {
+        "item_id": "ALB_11",
+        "descripcion": "Verificación de colocación de relleno de tensores",
+        "evidencia_documental": false,
+        "quien_verifica": "ambos"
+      },
+      {
+        "item_id": "ALB_12",
+        "descripcion": "Verificación ubicación de ductos eléctricos y cajas",
+        "evidencia_documental": false,
+        "quien_verifica": "ambos"
+      },
+      {
+        "item_id": "ALB_13",
+        "descripcion": "Revisión de plomo del muro, Max según EETT",
+        "evidencia_documental": false,
+        "quien_verifica": "ambos"
+      },
+      {
+        "item_id": "ALB_14",
+        "descripcion": "Revisión de alfeizer, (dimensión, enfierradura), si corresponde",
+        "evidencia_documental": false,
+        "quien_verifica": "ambos"
+      },
+      {
+        "item_id": "ALB_15",
+        "descripcion": "Revisión de emboquillado y canterías",
+        "evidencia_documental": false,
+        "quien_verifica": "ambos"
+      },
+      {
+        "item_id": "ALB_16",
+        "descripcion": "Toma de muestras de mortero",
+        "evidencia_documental": true,
+        "quien_verifica": "ambos"
+      },
+      {
+        "item_id": "ALB_17",
+        "descripcion": "Toma de muestras de relleno de tensores",
+        "evidencia_documental": true,
+        "quien_verifica": "ambos"
+      },
+      {
+        "item_id": "ALB_18",
+        "descripcion": "Colocación de hidro repelente ( dos manos)",
+        "evidencia_documental": false,
+        "quien_verifica": "ambos"
+      }
+    ]
+  },
+  {
+    "cartilla_id": "CART_CAD_001",
+    "nombre_partida": "Cadena",
+    "nombre_normalizado": "cadena",
+    "partida_id_match_sugerido": "PART_2.8.2",
+    "foto": true,
+    "documentos_solicitados": true,
+    "items": [
+      {
+        "item_id": "CAD_ENF_01",
+        "descripcion": "Verificar dimensión de enfierradura horizontal según planos",
+        "evidencia_documental": false,
+        "quien_verifica": "ambos"
+      },
+      {
+        "item_id": "CAD_ENF_02",
+        "descripcion": "Verificar dimensión de estribos según planos",
+        "evidencia_documental": false,
+        "quien_verifica": "ambos"
+      },
+      {
+        "item_id": "CAD_ENF_03",
+        "descripcion": "Verificar Doblez 135° y largo de desarrollo del gancho de 10 veces el diámetro (Estribos y trabas)",
+        "evidencia_documental": false,
+        "quien_verifica": "ambos"
+      },
+      {
+        "item_id": "CAD_ENF_04",
+        "descripcion": "Verificar refuerzos de esquinas según planos",
+        "evidencia_documental": false,
+        "quien_verifica": "ambos"
+      },
+      {
+        "item_id": "CAD_ENF_05",
+        "descripcion": "Verificar diseño de armaduras, amarras.",
+        "evidencia_documental": false,
+        "quien_verifica": "ambos"
+      },
+      {
+        "item_id": "CAD_ENF_06",
+        "descripcion": "Verificar traslapos, 50 veces el diámetro",
+        "evidencia_documental": false,
+        "quien_verifica": "ambos"
+      },
+      {
+        "item_id": "CAD_ENF_07",
+        "descripcion": "Verificación de recubrimiento (Separadores)",
+        "evidencia_documental": false,
+        "quien_verifica": "ambos"
+      },
+      {
+        "item_id": "CAD_MOL_01",
+        "descripcion": "Verificar alineamiento y Nivel de terminación",
+        "evidencia_documental": false,
+        "quien_verifica": "ambos"
+      },
+      {
+        "item_id": "CAD_MOL_02",
+        "descripcion": "Verificar ancho minimo y altura según planos y EETT",
+        "evidencia_documental": false,
+        "quien_verifica": "ambos"
+      },
+      {
+        "item_id": "CAD_MOL_03",
+        "descripcion": "Verificar estanquedad del moldaje",
+        "evidencia_documental": false,
+        "quien_verifica": "ambos"
+      },
+      {
+        "item_id": "CAD_MOL_04",
+        "descripcion": "Amarre de tensores a cadena (25 cm, sobre enfierradura de cadena",
+        "evidencia_documental": false,
+        "quien_verifica": "ambos"
+      },
+      {
+        "item_id": "CAD_MOL_05",
+        "descripcion": "Limpieza de la superficie, colocación de desmoldante",
+        "evidencia_documental": false,
+        "quien_verifica": "ambos"
+      },
+      {
+        "item_id": "CAD_HOR_01",
+        "descripcion": "Certificado de hormigón de ruptura min según EETT",
+        "evidencia_documental": true,
+        "quien_verifica": "ambos"
+      },
+      {
+        "item_id": "CAD_HOR_02",
+        "descripcion": "Verificación de altura de llenado",
+        "evidencia_documental": false,
+        "quien_verifica": "ambos"
+      },
+      {
+        "item_id": "CAD_HOR_03",
+        "descripcion": "Verificación de altura de dinteles y puertas",
+        "evidencia_documental": false,
+        "quien_verifica": "ambos"
+      },
+      {
+        "item_id": "CAD_HOR_04",
+        "descripcion": "Verificación de distanciamiento de espárragos",
+        "evidencia_documental": false,
+        "quien_verifica": "ambos"
+      },
+      {
+        "item_id": "CAD_HOR_05",
+        "descripcion": "Extracción de Muestra",
+        "evidencia_documental": true,
+        "quien_verifica": "ambos"
+      },
+      {
+        "item_id": "CAD_HOR_06",
+        "descripcion": "Colocación y vibrado de hormigón",
+        "evidencia_documental": false,
+        "quien_verifica": "ambos"
+      },
+      {
+        "item_id": "CAD_HOR_07",
+        "descripcion": "Verificar grado de terminación",
+        "evidencia_documental": false,
+        "quien_verifica": "ambos"
+      }
+    ]
+  },
+  {
+    "cartilla_id": "CART_RAD_001",
+    "nombre_partida": "Radieres",
+    "nombre_normalizado": "radieres",
+    "partida_id_match_sugerido": "PART_2.6",
+    "foto": true,
+    "documentos_solicitados": true,
+    "items": [
+      {
+        "item_id": "RAD_01",
+        "descripcion": "Verificación de calidad de relleno y compactación de este. CBR 30%",
+        "evidencia_documental": true,
+        "quien_verifica": "ambos"
+      },
+      {
+        "item_id": "RAD_02",
+        "descripcion": "Verificación de altura y niveles de compactación",
+        "evidencia_documental": false,
+        "quien_verifica": "ambos"
+      },
+      {
+        "item_id": "RAD_03",
+        "descripcion": "Colocación de cama de ripio según EETT",
+        "evidencia_documental": false,
+        "quien_verifica": "ambos"
+      },
+      {
+        "item_id": "RAD_04",
+        "descripcion": "Verificación ubicación descargas de W.C., lavamanos, ducha, lavaplatos, lavadora",
+        "evidencia_documental": false,
+        "quien_verifica": "ambos"
+      },
+      {
+        "item_id": "RAD_05",
+        "descripcion": "Certificación de dosificación según EETT",
+        "evidencia_documental": true,
+        "quien_verifica": "ambos"
+      },
+      {
+        "item_id": "RAD_06",
+        "descripcion": "Verificar altura de radier (confinado en sobrecimiento)",
+        "evidencia_documental": false,
+        "quien_verifica": "ambos"
+      },
+      {
+        "item_id": "RAD_07",
+        "descripcion": "Colocación de Hormigón según EETT",
+        "evidencia_documental": false,
+        "quien_verifica": "ambos"
+      },
+      {
+        "item_id": "RAD_08",
+        "descripcion": "Verificación de vibrado del Hormigón",
+        "evidencia_documental": false,
+        "quien_verifica": "ambos"
+      },
+      {
+        "item_id": "RAD_09",
+        "descripcion": "Verificación de incorporación de endurecedor superficial (si el radier es afinado)",
+        "evidencia_documental": false,
+        "quien_verifica": "ambos"
+      },
+      {
+        "item_id": "RAD_10",
+        "descripcion": "Verificación del grado de terminación (radier afinado)",
+        "evidencia_documental": false,
+        "quien_verifica": "ambos"
+      },
+      {
+        "item_id": "RAD_11",
+        "descripcion": "Toma de muestra del hormigón",
+        "evidencia_documental": true,
+        "quien_verifica": "ambos"
+      },
+      {
+        "item_id": "RAD_12",
+        "descripcion": "Correcto curado del hormigón",
+        "evidencia_documental": false,
+        "quien_verifica": "ambos"
+      },
+      {
+        "item_id": "RAD_13",
+        "descripcion": "Determinación de juntas de dilatación bajo tabique",
+        "evidencia_documental": false,
+        "quien_verifica": "ambos"
+      }
+    ]
+  },
+  {
+    "cartilla_id": "CART_TAB_001",
+    "nombre_partida": "Tabiquería",
+    "nombre_normalizado": "tabiqueria",
+    "partida_id_match_sugerido": "PART_2.9",
+    "foto": true,
+    "documentos_solicitados": false,
+    "items": [
+      {
+        "item_id": "TAB_01",
+        "descripcion": "Verificación de espesor de planchas de yeso cartón según EETT",
+        "evidencia_documental": false,
+        "quien_verifica": "ambos"
+      },
+      {
+        "item_id": "TAB_02",
+        "descripcion": "Verificación de espesor de planchas de fibrocemento según EETT",
+        "evidencia_documental": false,
+        "quien_verifica": "ambos"
+      },
+      {
+        "item_id": "TAB_03",
+        "descripcion": "Verificar trazado en radier y cielo",
+        "evidencia_documental": false,
+        "quien_verifica": "ambos"
+      },
+      {
+        "item_id": "TAB_04",
+        "descripcion": "Verificar planos de estructura de tabiquería",
+        "evidencia_documental": false,
+        "quien_verifica": "ambos"
+      },
+      {
+        "item_id": "TAB_05",
+        "descripcion": "Verificar anclajes y afianzamiento según fabricante (incluir solución) en cielo, muro y piso",
+        "evidencia_documental": false,
+        "quien_verifica": "ambos"
+      },
+      {
+        "item_id": "TAB_06",
+        "descripcion": "Distanciamiento de montantes (pies derechos), distancia maxima según EETT",
+        "evidencia_documental": false,
+        "quien_verifica": "ambos"
+      },
+      {
+        "item_id": "TAB_07",
+        "descripcion": "Verificación de plomo del tabique",
+        "evidencia_documental": false,
+        "quien_verifica": "ambos"
+      },
+      {
+        "item_id": "TAB_08",
+        "descripcion": "Verificar colocación de revestimiento en zonas húmedas (fibrocemento) y tabiquería en general (yeso cartón)",
+        "evidencia_documental": false,
+        "quien_verifica": "ambos"
+      },
+      {
+        "item_id": "TAB_09",
+        "descripcion": "Verificación de colocación de tornillos cada 15 cms, min 1 cm del borde de la placa y en forma de zig-zag",
+        "evidencia_documental": false,
+        "quien_verifica": "ambos"
+      },
+      {
+        "item_id": "TAB_10",
+        "descripcion": "Colocación de barrera de humedad en solera inferior, retorno min 3cm sobre solera",
+        "evidencia_documental": false,
+        "quien_verifica": "ambos"
+      },
+      {
+        "item_id": "TAB_11",
+        "descripcion": "Colocación de sellos impermeable entre placas en zonas húmedas",
+        "evidencia_documental": false,
+        "quien_verifica": "ambos"
+      },
+      {
+        "item_id": "TAB_12",
+        "descripcion": "Verificación de rasgos puertas interiores_______cm",
+        "evidencia_documental": false,
+        "quien_verifica": "ambos"
+      }
+    ]
+  },
+  {
+    "cartilla_id": "CART_EST_001",
+    "nombre_partida": "Estructura techumbre",
+    "nombre_normalizado": "estructura_techumbre",
+    "partida_id_match_sugerido": "PART_2.10.1",
+    "foto": true,
+    "documentos_solicitados": true,
+    "items": [
+      {
+        "item_id": "EST_01",
+        "descripcion": "Certificados de maderas impregnadas, o de perfiles de Acero Galvanizado tipo Metalcon",
+        "evidencia_documental": true,
+        "quien_verifica": "ambos"
+      },
+      {
+        "item_id": "EST_02",
+        "descripcion": "Verificar calidad del material en terreno",
+        "evidencia_documental": false,
+        "quien_verifica": "ambos"
+      },
+      {
+        "item_id": "EST_03",
+        "descripcion": "Verificar escuadrías de madera, de perfiles de Acero Galvanizado tipo Metalcon (según Planos de estructuras)",
+        "evidencia_documental": false,
+        "quien_verifica": "ambos"
+      },
+      {
+        "item_id": "EST_04",
+        "descripcion": "Verificar diseño de cerchas",
+        "evidencia_documental": false,
+        "quien_verifica": "ambos"
+      },
+      {
+        "item_id": "EST_05",
+        "descripcion": "Verificación de horizontalidad del terreno en el cual se acopiará, sector apropiado para este efecto.",
+        "evidencia_documental": false,
+        "quien_verifica": "ambos"
+      },
+      {
+        "item_id": "EST_06",
+        "descripcion": "Verificar Altura máxima de acopio de cerchas",
+        "evidencia_documental": false,
+        "quien_verifica": "ambos"
+      },
+      {
+        "item_id": "EST_07",
+        "descripcion": "Verificación de protección del acopio de estructuras: sol, lluvia, viento etc.",
+        "evidencia_documental": false,
+        "quien_verifica": "ambos"
+      },
+      {
+        "item_id": "EST_08",
+        "descripcion": "Verificar distanciamientos, Distribución de cerchas",
+        "evidencia_documental": false,
+        "quien_verifica": "ambos"
+      },
+      {
+        "item_id": "EST_09",
+        "descripcion": "Verificación de barrera de humedad entre cercha de madera y cadena de H.A.,(donde se asienta)",
+        "evidencia_documental": false,
+        "quien_verifica": "ambos"
+      },
+      {
+        "item_id": "EST_10",
+        "descripcion": "Colocación de arriostramiento (Cruz de San Andres)",
+        "evidencia_documental": false,
+        "quien_verifica": "ambos"
+      },
+      {
+        "item_id": "EST_11",
+        "descripcion": "Verificación de anclajes de estructuras a cadenas y vigas",
+        "evidencia_documental": false,
+        "quien_verifica": "ambos"
+      },
+      {
+        "item_id": "EST_12",
+        "descripcion": "Colocación de costaneras min 2\"x2\"",
+        "evidencia_documental": false,
+        "quien_verifica": "ambos"
+      },
+      {
+        "item_id": "EST_13",
+        "descripcion": "Verificar distanciamiento entre costaneras 60 cms o según planos de estructuras",
+        "evidencia_documental": false,
+        "quien_verifica": "ambos"
+      },
+      {
+        "item_id": "EST_14",
+        "descripcion": "Verificación distancia de aleros y tapacanes",
+        "evidencia_documental": false,
+        "quien_verifica": "ambos"
+      },
+      {
+        "item_id": "EST_15",
+        "descripcion": "Verificación de cumplimiento de normativa contra el fuego, acústica y térmica en muros medianeros, según proyectista",
+        "evidencia_documental": true,
+        "quien_verifica": "ambos"
+      }
+    ]
+  },
+  {
+    "cartilla_id": "CART_CUB_001",
+    "nombre_partida": "Cubierta",
+    "nombre_normalizado": "cubierta",
+    "partida_id_match_sugerido": "PART_2.11",
+    "foto": true,
+    "documentos_solicitados": true,
+    "items": [
+      {
+        "item_id": "CUB_01",
+        "descripcion": "Certificación de calidad de planchas a utilizar",
+        "evidencia_documental": true,
+        "quien_verifica": "ambos"
+      },
+      {
+        "item_id": "CUB_02",
+        "descripcion": "Verificación del tipo de plancha a utilizar según E.T.",
+        "evidencia_documental": false,
+        "quien_verifica": "ambos"
+      },
+      {
+        "item_id": "CUB_03",
+        "descripcion": "Colocación de planchas y verificación de traslapos: transv una onda y long. 15 cms",
+        "evidencia_documental": false,
+        "quien_verifica": "ambos"
+      },
+      {
+        "item_id": "CUB_04",
+        "descripcion": "Verificación de cantidad de fijaciones por planchas, tornillo y golilla",
+        "evidencia_documental": false,
+        "quien_verifica": "ambos"
+      },
+      {
+        "item_id": "CUB_05",
+        "descripcion": "Distanciamiento de llegada de las planchas a caballete y alero",
+        "evidencia_documental": false,
+        "quien_verifica": "ambos"
+      },
+      {
+        "item_id": "CUB_06",
+        "descripcion": "Verificación de caballete, espesor min 3,5 mm (acero zinc alum) o 0,4 hojalatería",
+        "evidencia_documental": false,
+        "quien_verifica": "ambos"
+      },
+      {
+        "item_id": "CUB_07",
+        "descripcion": "Verificación de traslapo longitudinal de caballete",
+        "evidencia_documental": false,
+        "quien_verifica": "ambos"
+      },
+      {
+        "item_id": "CUB_08",
+        "descripcion": "Verificación cortagotera mínimo de 8 cms del tapacan",
+        "evidencia_documental": false,
+        "quien_verifica": "ambos"
+      },
+      {
+        "item_id": "CUB_09",
+        "descripcion": "Verificar forro de alero de fibrocemento de 4mm",
+        "evidencia_documental": false,
+        "quien_verifica": "ambos"
+      }
+    ]
+  },
+  {
+    "cartilla_id": "CART_CIE_001",
+    "nombre_partida": "Cielo",
+    "nombre_normalizado": "cielo",
+    "partida_id_match_sugerido": "PART_3.3.2",
+    "foto": true,
+    "documentos_solicitados": true,
+    "items": [
+      {
+        "item_id": "CIE_01",
+        "descripcion": "Certificación de calidad del material",
+        "evidencia_documental": true,
+        "quien_verifica": "ambos"
+      },
+      {
+        "item_id": "CIE_02",
+        "descripcion": "Verificar distanciamiento de entramado maximo según EETT",
+        "evidencia_documental": false,
+        "quien_verifica": "ambos"
+      },
+      {
+        "item_id": "CIE_03",
+        "descripcion": "Verificación de horizontalidad y altura min según EETT",
+        "evidencia_documental": false,
+        "quien_verifica": "ambos"
+      },
+      {
+        "item_id": "CIE_04",
+        "descripcion": "Verificar ejes de tabiquería interior",
+        "evidencia_documental": false,
+        "quien_verifica": "ambos"
+      },
+      {
+        "item_id": "CIE_05",
+        "descripcion": "Colocación de revestimiento, zona húmeda Fibrocemento, zona seca yeso cartón según EETT",
+        "evidencia_documental": false,
+        "quien_verifica": "ambos"
+      },
+      {
+        "item_id": "CIE_06",
+        "descripcion": "Verificación de colocación de fijaciones cada 15 cms, min 1 cm del borde de la placa y en forma de zigzag",
+        "evidencia_documental": false,
+        "quien_verifica": "ambos"
+      },
+      {
+        "item_id": "CIE_07",
+        "descripcion": "Verificar colocación de cubrejuntas en planchas cortadas",
+        "evidencia_documental": false,
+        "quien_verifica": "ambos"
+      },
+      {
+        "item_id": "CIE_08",
+        "descripcion": "Verificación de colocación de aislación en entretecho",
+        "evidencia_documental": false,
+        "quien_verifica": "ambos"
+      },
+      {
+        "item_id": "CIE_09",
+        "descripcion": "Colocación de rejilla de ventilación en frontón, o abertura en tapacanes, Max 1 cms",
+        "evidencia_documental": false,
+        "quien_verifica": "ambos"
+      }
+    ]
+  },
+  {
+    "cartilla_id": "CART_PUE_001",
+    "nombre_partida": "Puertas y ventanas",
+    "nombre_normalizado": "puertas_y_ventanas",
+    "partida_id_match_sugerido": "PART_3.5",
+    "foto": true,
+    "documentos_solicitados": true,
+    "items": [
+      {
+        "item_id": "PUE_01",
+        "descripcion": "Certificación de Puertas",
+        "evidencia_documental": true,
+        "quien_verifica": "ambos"
+      },
+      {
+        "item_id": "PUE_02",
+        "descripcion": "Verificación de plomo de marcos de puerta",
+        "evidencia_documental": false,
+        "quien_verifica": "ambos"
+      },
+      {
+        "item_id": "PUE_03",
+        "descripcion": "Colocación de sellos en encuentro de rasgos",
+        "evidencia_documental": false,
+        "quien_verifica": "ambos"
+      },
+      {
+        "item_id": "PUE_04",
+        "descripcion": "Verificación de primera mano de antióxido o barniz, según corresponda",
+        "evidencia_documental": false,
+        "quien_verifica": "ambos"
+      },
+      {
+        "item_id": "PUE_05",
+        "descripcion": "Verificación de segunda mano de antióxido o barniz, según corresponda",
+        "evidencia_documental": false,
+        "quien_verifica": "ambos"
+      },
+      {
+        "item_id": "PUE_06",
+        "descripcion": "Verificar la colocación de bisagras (3 c/puerta) puerta ppal bisagras de 31/2\"x 31/2\" y 3\"x3\" en puertas interiores",
+        "evidencia_documental": false,
+        "quien_verifica": "ambos"
+      },
+      {
+        "item_id": "PUE_07",
+        "descripcion": "Colocación de cerradura acceso, caja acero estampado 2 vueltas",
+        "evidencia_documental": false,
+        "quien_verifica": "ambos"
+      },
+      {
+        "item_id": "PUE_08",
+        "descripcion": "Cerradura interior de embutir con picaporte reversible en baño y picaporte reversible cerrojo de dos vueltas",
+        "evidencia_documental": false,
+        "quien_verifica": "ambos"
+      },
+      {
+        "item_id": "PUE_09",
+        "descripcion": "Verificación de aceite de linaza en puertas interiores y barniz en exteriores",
+        "evidencia_documental": false,
+        "quien_verifica": "ambos"
+      },
+      {
+        "item_id": "PUE_10",
+        "descripcion": "Verificar rejilla o celosía de ventilación en puerta de baño",
+        "evidencia_documental": false,
+        "quien_verifica": "ambos"
+      },
+      {
+        "item_id": "PUE_11",
+        "descripcion": "Certificación de Ventanas de aluminio",
+        "evidencia_documental": true,
+        "quien_verifica": "ambos"
+      },
+      {
+        "item_id": "PUE_12",
+        "descripcion": "Verificación de plomo de marcos ventana",
+        "evidencia_documental": false,
+        "quien_verifica": "ambos"
+      },
+      {
+        "item_id": "PUE_13",
+        "descripcion": "Colocación de sellos de silicona en encuentro de rasgos",
+        "evidencia_documental": false,
+        "quien_verifica": "ambos"
+      },
+      {
+        "item_id": "PUE_14",
+        "descripcion": "Verificación de cierre de ventanas y colocación de seguro caracol",
+        "evidencia_documental": false,
+        "quien_verifica": "ambos"
+      },
+      {
+        "item_id": "PUE_15",
+        "descripcion": "Verificación de celosías en ventana de baño y cocina",
+        "evidencia_documental": false,
+        "quien_verifica": "ambos"
+      },
+      {
+        "item_id": "PUE_16",
+        "descripcion": "verificar drenaje inferior para condensación",
+        "evidencia_documental": false,
+        "quien_verifica": "ambos"
+      }
+    ]
+  },
+  {
+    "cartilla_id": "CART_ELE_001",
+    "nombre_partida": "Inst. Eléctrica",
+    "nombre_normalizado": "inst_electrica",
+    "partida_id_match_sugerido": "PART_4.4",
+    "foto": true,
+    "documentos_solicitados": false,
+    "items": [
+      {
+        "item_id": "ELE_01",
+        "descripcion": "Verificación de red mediante planos",
+        "evidencia_documental": false,
+        "quien_verifica": "ambos"
+      },
+      {
+        "item_id": "ELE_02",
+        "descripcion": "Verificación de ductos y cajas de derivación",
+        "evidencia_documental": false,
+        "quien_verifica": "ambos"
+      },
+      {
+        "item_id": "ELE_03",
+        "descripcion": "Verificación de diámetro de cables",
+        "evidencia_documental": false,
+        "quien_verifica": "ambos"
+      },
+      {
+        "item_id": "ELE_04",
+        "descripcion": "Verificación de T.D.A.",
+        "evidencia_documental": false,
+        "quien_verifica": "ambos"
+      },
+      {
+        "item_id": "ELE_05",
+        "descripcion": "Colocación de artefactos eléctricos (calidad)",
+        "evidencia_documental": false,
+        "quien_verifica": "ambos"
+      },
+      {
+        "item_id": "ELE_06",
+        "descripcion": "Colocación de medidores",
+        "evidencia_documental": false,
+        "quien_verifica": "ambos"
+      },
+      {
+        "item_id": "ELE_07",
+        "descripcion": "Instalación de empalmes",
+        "evidencia_documental": false,
+        "quien_verifica": "ambos"
+      },
+      {
+        "item_id": "ELE_08",
+        "descripcion": "Recepcion de la instalacion",
+        "evidencia_documental": false,
+        "quien_verifica": "ambos"
+      }
+    ]
+  },
+  {
+    "cartilla_id": "CART_SAN_001",
+    "nombre_partida": "Sanitaria",
+    "nombre_normalizado": "sanitaria",
+    "partida_id_match_sugerido": "PART_4.1",
+    "foto": true,
+    "documentos_solicitados": false,
+    "items": [
+      {
+        "item_id": "SAN_01",
+        "descripcion": "Verificación de red de alcantarillado (tipo de cañerías, diámetros, pendiente)",
+        "evidencia_documental": false,
+        "quien_verifica": "ambos"
+      },
+      {
+        "item_id": "SAN_02",
+        "descripcion": "Verificación de red de Agua potable (diámetros, uniones)",
+        "evidencia_documental": false,
+        "quien_verifica": "ambos"
+      },
+      {
+        "item_id": "SAN_03",
+        "descripcion": "Verificación de Calidad de Artefactos Sanitarios (fisura, golpes)",
+        "evidencia_documental": false,
+        "quien_verifica": "ambos"
+      },
+      {
+        "item_id": "SAN_04",
+        "descripcion": "Colocación de Lavamanos (fijación y sellos)",
+        "evidencia_documental": false,
+        "quien_verifica": "ambos"
+      },
+      {
+        "item_id": "SAN_05",
+        "descripcion": "Colocación de estanque y WC, (verificación de sellos)",
+        "evidencia_documental": false,
+        "quien_verifica": "ambos"
+      },
+      {
+        "item_id": "SAN_06",
+        "descripcion": "Colocación de lavaplatos (Fijación y Sellos)",
+        "evidencia_documental": false,
+        "quien_verifica": "ambos"
+      },
+      {
+        "item_id": "SAN_07",
+        "descripcion": "Colocación de mueble de lavaplatos (con pintura al oleo)",
+        "evidencia_documental": false,
+        "quien_verifica": "ambos"
+      },
+      {
+        "item_id": "SAN_08",
+        "descripcion": "Verificación de receptáculo de ducha (sellos con tabiquería)",
+        "evidencia_documental": false,
+        "quien_verifica": "ambos"
+      },
+      {
+        "item_id": "SAN_09",
+        "descripcion": "Verificación de fittings y desagües",
+        "evidencia_documental": false,
+        "quien_verifica": "ambos"
+      },
+      {
+        "item_id": "SAN_10",
+        "descripcion": "Verificación de sifón con registro",
+        "evidencia_documental": false,
+        "quien_verifica": "ambos"
+      },
+      {
+        "item_id": "SAN_11",
+        "descripcion": "Verificación de nicho, medidor ubicación (instalación según normas)",
+        "evidencia_documental": false,
+        "quien_verifica": "ambos"
+      }
+    ]
+  },
+  {
+    "cartilla_id": "CART_APA_001",
+    "nombre_partida": "Arranque A.P",
+    "nombre_normalizado": "arranque_ap",
+    "partida_id_match_sugerido": "PART_4.2",
+    "foto": true,
+    "documentos_solicitados": true,
+    "items": [
+      {
+        "item_id": "APA_01",
+        "descripcion": "Aprobación de proyecto de agua potable",
+        "evidencia_documental": true,
+        "quien_verifica": "ambos"
+      },
+      {
+        "item_id": "APA_02",
+        "descripcion": "Excavación desde Vivienda hasta matriz",
+        "evidencia_documental": false,
+        "quien_verifica": "ambos"
+      },
+      {
+        "item_id": "APA_03",
+        "descripcion": "Instalación de cañerías",
+        "evidencia_documental": false,
+        "quien_verifica": "ambos"
+      },
+      {
+        "item_id": "APA_04",
+        "descripcion": "Colocación de nichos guarda medidores",
+        "evidencia_documental": false,
+        "quien_verifica": "ambos"
+      },
+      {
+        "item_id": "APA_05",
+        "descripcion": "Colocación de medidores",
+        "evidencia_documental": false,
+        "quien_verifica": "ambos"
+      },
+      {
+        "item_id": "APA_06",
+        "descripcion": "Recepción de la instalación",
+        "evidencia_documental": false,
+        "quien_verifica": "ambos"
+      }
+    ]
+  },
+  {
+    "cartilla_id": "CART_ALC_001",
+    "nombre_partida": "Arranque alcantarillado",
+    "nombre_normalizado": "arranque_alcantarillado",
+    "partida_id_match_sugerido": "PART_4.1",
+    "foto": true,
+    "documentos_solicitados": true,
+    "items": [
+      {
+        "item_id": "ALC_01",
+        "descripcion": "Aprobación de proyecto de Alcantarillado",
+        "evidencia_documental": true,
+        "quien_verifica": "ambos"
+      },
+      {
+        "item_id": "ALC_02",
+        "descripcion": "Excavación desde Vivienda hasta matriz (UD)",
+        "evidencia_documental": false,
+        "quien_verifica": "ambos"
+      },
+      {
+        "item_id": "ALC_03",
+        "descripcion": "Instalación de cañerías (verificar diámetro y pendiente)",
+        "evidencia_documental": false,
+        "quien_verifica": "ambos"
+      },
+      {
+        "item_id": "ALC_04",
+        "descripcion": "Verificación de altura de cámaras de inspección",
+        "evidencia_documental": false,
+        "quien_verifica": "ambos"
+      },
+      {
+        "item_id": "ALC_05",
+        "descripcion": "Verificación de banqueta",
+        "evidencia_documental": false,
+        "quien_verifica": "ambos"
+      },
+      {
+        "item_id": "ALC_06",
+        "descripcion": "Recepción de la instalación",
+        "evidencia_documental": false,
+        "quien_verifica": "ambos"
+      }
+    ]
+  },
+  {
+    "cartilla_id": "CART_MUR_001",
+    "nombre_partida": "Muros de Contención",
+    "nombre_normalizado": "muros_de_contencion",
+    "partida_id_match_sugerido": null,
+    "foto": true,
+    "documentos_solicitados": true,
+    "items": [
+      {
+        "item_id": "MUR_01",
+        "descripcion": "Verificacion de PR (Nivel de Solera)",
+        "evidencia_documental": false,
+        "quien_verifica": "ambos"
+      },
+      {
+        "item_id": "MUR_02",
+        "descripcion": "Verificacion de linea de Edificacion y linea oficial ( tolerancia +/- 1%)",
+        "evidencia_documental": false,
+        "quien_verifica": "ambos"
+      },
+      {
+        "item_id": "MUR_03",
+        "descripcion": "Replanteo de Viviendas , según planos",
+        "evidencia_documental": false,
+        "quien_verifica": "ambos"
+      },
+      {
+        "item_id": "MUR_04",
+        "descripcion": "Confeccion de Niveletas",
+        "evidencia_documental": false,
+        "quien_verifica": "ambos"
+      },
+      {
+        "item_id": "MUR_05",
+        "descripcion": "verificacion de excavacion de terreno 60 cms",
+        "evidencia_documental": false,
+        "quien_verifica": "ambos"
+      },
+      {
+        "item_id": "MUR_06",
+        "descripcion": "Verificacion de ejes, indicar longitudes según planos",
+        "evidencia_documental": false,
+        "quien_verifica": "ambos"
+      },
+      {
+        "item_id": "MUR_07",
+        "descripcion": "Recepcion de sello de excavacion",
+        "evidencia_documental": true,
+        "quien_verifica": "ambos"
+      }
+    ]
+  }
+]

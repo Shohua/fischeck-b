@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FISCHECK R03 · Control de Avance</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='5' fill='%23f5c518'/><text x='3' y='24' font-size='18' font-family='monospace' font-weight='bold' fill='black'>FC</text></svg>">
+</head>
+<body>
+
+<div class="shell">
+  <!-- ── SIDEBAR ── -->
+  <aside class="sidebar" id="sidebar">
+    <div class="sb-logo">
+      <div class="mark">FC</div>
+      <div class="wordmark">FISCHECK <span>R03 · Parte B</span></div>
+    </div>
+    <div class="sb-actor">
+      <button class="actor-btn" id="actorBtn" onclick="App._renderActorModal()">
+        <div class="aico" style="background:rgba(255,255,255,.05)">👤</div>
+        <div class="aname">Sin sesión</div><div class="achv">▼</div>
+      </button>
+    </div>
+    <nav class="sb-nav" id="sbNav"></nav>
+    <div class="sb-foot">
+      <button onclick="document.getElementById('sidebar').classList.toggle('mini')">☰</button>
+    </div>
+  </aside>
+
+  <!-- ── MAIN ── -->
+  <main class="main">
+    <header class="topbar">
+      <span class="tb-title">FISCHECK R03</span>
+      <span class="tb-sub">Control de Avance de Obra</span>
+      <div class="tb-sep"></div>
+      <div class="tb-actions">
+        <button class="btn btn-ghost btn-sm" id="btnProyecto" onclick="abrirProyecto()">📁 Sin proyecto</button>
+        <button class="btn btn-ghost btn-sm" onclick="App._renderActorModal()">🔄 Rol</button>
+      </div>
+    </header>
+
+    <div class="page-area">
+      <div class="page-view" id="p-reportar-maestro"></div>
+      <div class="page-view" id="p-reportar-supervisor"></div>
+      <div class="page-view" id="p-pendientes-sup"></div>
+      <div class="page-view" id="p-gantt"></div>
+      <div class="page-view" id="p-alertas-jefe"></div>
+      <div class="page-view" id="p-pendientes-auto"></div>
+      <div class="page-view" id="p-cartillas-auto"></div>
+      <div class="page-view" id="p-resumen-admin"></div>
+      <div class="page-view" id="p-propuestas-admin"></div>
+      <div class="page-view" id="p-revision-fto"></div>
+      <div class="page-view" id="p-historial-fto"></div>
+    </div>
+  </main>
+</div>
+
+<!-- ═══════════ MODALS ═══════════ -->
+
+<!-- Actor Modal -->
+<div class="moverlay" id="actorModal" onclick="if(event.target===this&&S.actor)closeModal('actorModal')">
+  <div class="modal" style="max-width:580px">
+    <div class="m-hdr"><div class="m-title">FISCHECK R03 · Seleccionar Actor</div></div>
+    <div class="m-body" id="actorModalBody"></div>
+  </div>
+</div>
+
+<!-- Proyecto Modal -->
+<div class="moverlay" id="proyectoModal" onclick="if(event.target===this)closeModal('proyectoModal')">
+  <div class="modal">
+    <div class="m-hdr">
+      <div class="m-title">📁 Gestión de Proyecto</div>
+      <button class="m-close" onclick="closeModal('proyectoModal')">×</button>
+    </div>
+    <div class="m-body">
+      <div class="tabs">
+        <button class="tab-btn active" onclick="switchTab(this,'tab-nuevo-proy')">Crear nuevo</button>
+        <button class="tab-btn" onclick="switchTab(this,'tab-proy-activo');renderProyActivo()">Proyecto activo</button>
+        <button class="tab-btn" onclick="switchTab(this,'tab-qr-proy');renderQRVivs()">Imprimir QRs</button>
+      </div>
+      <div class="tab-panel active" id="tab-nuevo-proy">
+        <div class="fg"><label class="flbl">Nombre del proyecto</label>
+          <input class="finp" id="proy-nombre" placeholder="Ej: Proyecto El Huanaco"></div>
+        <div class="g2">
+          <div class="fg"><label class="flbl">Código</label>
+            <input class="finp" id="proy-codigo" placeholder="Ej: PEH-ATK-005"></div>
+          <div class="fg"><label class="flbl">N° de viviendas</label>
+            <input class="finp" id="proy-vivs" type="number" min="1" placeholder="10"></div>
+        </div>
+        <div class="fg"><label class="flbl">Monto total UF</label>
+          <input class="finp" id="proy-monto" type="number" step="0.01" placeholder="0.00"></div>
+        <div class="g2">
+          <div class="fg"><label class="flbl">Fecha inicio</label>
+            <input class="finp" id="proy-inicio" type="date"></div>
+          <div class="fg"><label class="flbl">Fecha término</label>
+            <input class="finp" id="proy-termino" type="date"></div>
+        </div>
+        <button class="btn btn-pri" style="width:100%" onclick="crearProyecto()">Crear Proyecto</button>
+      </div>
+      <div class="tab-panel" id="tab-proy-activo">
+        <div id="proy-activo-info"><div class="empty-state"><div class="ei">📁</div><div class="et">Sin proyecto activo</div></div></div>
+      </div>
+      <div class="tab-panel" id="tab-qr-proy">
+        <div id="qr-viv-list"><div class="text-muted">Crea un proyecto primero</div></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Generic Modal -->
+<div class="moverlay" id="genModal" onclick="if(event.target===this)closeModal('genModal')">
+  <div class="modal wide">
+    <div class="m-hdr">
+      <div class="m-title" id="genModalTitle">Acción</div>
+      <button class="m-close" onclick="closeModal('genModal')">×</button>
+    </div>
+    <div class="m-body" id="genModalBody"></div>
+  </div>
+</div>
+
+<!-- Toasts -->
+<div class="toast-cnt" id="toastCnt"></div>
+
+<!-- ═══════════ SCRIPTS ═══════════ -->
+<script src="https://cdn.jsdelivr.net/npm/jsqr@1.4.0/dist/jsQR.js"></script>
+<!-- Supabase: descomenta cuando tengas tu proyecto -->
+<!-- <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script> -->
+
+<script src="js/state.js"></script>
+<script src="js/qr.js"></script>
+<script src="js/app.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded', async () => {
+  await S.boot();
+  App.boot();
+  _updatePrBadge();
+});
+
+function abrirProyecto() { renderProyActivo(); openModal('proyectoModal'); }
+
+function _updatePrBadge() {
+  const btn=document.getElementById('btnProyecto');
+  if (btn&&S.proyecto) btn.textContent=`📁 ${S.proyecto.codigo}`;
+}
+
+async function crearProyecto() {
+  const nombre=document.getElementById('proy-nombre')?.value?.trim();
+  const codigo=document.getElementById('proy-codigo')?.value?.trim();
+  const vivs=document.getElementById('proy-vivs')?.value;
+  const monto=document.getElementById('proy-monto')?.value;
+  const inicio=document.getElementById('proy-inicio')?.value;
+  const termino=document.getElementById('proy-termino')?.value;
+  if (!nombre||!codigo||!vivs||!inicio||!termino){toast('warn','Completa todos los campos');return;}
+  try {
+    await S.crearProyecto({nombre,codigo,num_viviendas:vivs,monto_total_uf:monto||0,fecha_inicio:inicio,fecha_termino:termino});
+    closeModal('proyectoModal');
+    _updatePrBadge();
+    if (App.actor) App.go(ACTORS[App.actor].pages[0]);
+    toast('ok',`Proyecto "${nombre}" creado con ${vivs} viviendas`);
+  } catch(e){toast('danger',e.message);}
+}
+
+function renderProyActivo() {
+  const el=document.getElementById('proy-activo-info'); if(!el) return;
+  if (!S.proyecto){el.innerHTML=`<div class="empty-state"><div class="ei">📁</div><div class="et">Sin proyecto activo</div></div>`;return;}
+  const p=S.proyecto;
+  el.innerHTML=`<div class="card">
+    <div style="font-weight:700;font-size:14px;margin-bottom:10px">${p.nombre}</div>
+    <div class="g2">
+      <div><div class="flbl">Código</div><div class="text-mono">${p.codigo}</div></div>
+      <div><div class="flbl">Viviendas</div><div class="text-mono">${p.num_viviendas}</div></div>
+      <div><div class="flbl">Monto total</div><div class="text-mono">${Number(p.monto_total_uf||0).toLocaleString('es-CL',{minimumFractionDigits:2})} UF</div></div>
+      <div><div class="flbl">Inicio</div><div class="text-mono">${p.fecha_inicio}</div></div>
+      <div><div class="flbl">Término</div><div class="text-mono">${p.fecha_termino}</div></div>
+    </div>
+  </div>`;
+}
+
+function renderQRVivs() {
+  const el=document.getElementById('qr-viv-list'); if(!el) return;
+  if (!S.viviendas.length){el.innerHTML='<div class="text-muted">Sin viviendas creadas</div>';return;}
+  el.innerHTML=`<p class="text-muted mb-12">Haz clic en cada vivienda para generar su QR imprimible.</p>`+
+    S.viviendas.map(v=>`
+      <div class="flex-row" style="padding:7px 0;border-bottom:1px solid var(--bdr)">
+        <div style="font-size:13px;font-weight:600">Vivienda ${v.numero}</div>
+        <div class="text-muted text-mono ml-auto" style="font-size:10px">${v.qr_id}</div>
+        <button class="btn btn-ghost btn-xs" onclick="QRScanner.generatePrintable(${JSON.stringify(v).replace(/"/g,'&quot;')})">🖨️ Imprimir QR</button>
+      </div>`).join('');
+}
+</script>
+</body>
+</html>
